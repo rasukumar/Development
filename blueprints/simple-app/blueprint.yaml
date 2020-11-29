@@ -7,7 +7,7 @@ resources:
     type: Cloud.AWS.EC2.Instance
     properties:
       image: linux
-      flavor: small
+      flavor: Freetier
       cloudConfig: |
         #cloud-config
         repo_update: true
